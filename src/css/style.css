@@ -1,0 +1,368 @@
+body{
+    font-family: Arial , sans-serif;
+    
+}
+
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #344051;
+}
+.logo{
+    color:#fff;
+    float: left;
+     font-size: 30px;
+    padding-left: 250px;
+      line-height:70px; 
+  
+}
+.menu{
+    float: left;
+    padding-left: 100px;
+ 
+}
+.menu li{
+    float:left;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 10px;
+    line-height: 70px;
+    text-transform: uppercase;
+}
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover  no-repeat;
+  
+}
+.title_container{
+    float: left;
+    margin:300px 0px 0px  150px ;
+    text-align: center;
+}
+.title_container h1{
+    color: #2c384a;
+    font-weight: bold;
+    text-align: center;
+     font-size: 35px;
+}
+.title_container h4{
+    margin: 20px ;
+    text-align: center;
+    color: #79818d;
+}
+.title_container input{
+     width: 100px;
+    height: 20px;
+    color: #afb3bb;
+    border: 2px solid #6d7682;
+    text-align: center;
+    margin: 25px 14px 0px 14px;
+    border-radius: 5px;
+}
+.aboutME h4{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    width: 150px;
+    margin:40px auto;
+}
+.aboutME input{
+    display: block;
+    margin: 40px auto;
+    height: 25px;
+    width: 180px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #6f707e;
+     background: url(../img/input.png) 10px no-repeat;
+
+}
+.aboutME hr{
+    width: 85px;/*ширина*/     
+    height: 5px;/*высота*/
+    background:#d17700;
+    margin: auto;
+    
+}
+.aboutME img{
+    display: block;
+    margin:20px auto;
+}
+.textOne p{
+    float: left;
+    margin: 0px 80px 0px 300px;                
+}
+.textTwo p{
+    float: left;
+    margin: 30px 80px 20px 300px;     
+}
+
+
+.fon{
+    height: 500px;
+    width: 100%;
+    background:url(../img/bg2.jpg) center no-repeat;
+    
+}
+.skills {
+    width: 950px;
+    margin:0 auto;
+    text-align: center;
+    height: 100px;
+ 
+}
+.skills h3{
+    font-size: 25px;
+    padding-top: 35px;
+    
+}
+.skills h4{
+    color: #cf7600;
+    padding: 10px;
+}
+.skills hr{
+    width: 70px;
+    height: 5px;
+    background:#d17700; 
+    margin:20px auto;
+}
+.skills_i {
+     float: left;
+    width: 230px;
+    text-align: center;
+    margin-top: 150px;
+    line-height: normal;
+    
+    
+    
+}
+.clear{
+    clear: left;
+}
+    
+.case{
+    text-align: center;
+    line-height: 50px;    
+}
+.case h3{
+    font-size: 25px;
+}
+.case hr{
+    width: 85px;/*ширина*/     
+    height: 5px;/*высота*/
+    background:#d17700;
+    margin: auto;
+}
+
+.infa{
+    float: left;
+    width: 400px;
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 25px;
+    margin: 10px 0px 0px 60px;    
+}
+.opisanie{
+display: block;
+    width: 1000px;
+    height: 200px;
+    margin-top: 30px;
+    font-size: 15px;
+    margin: 10px auto;
+    
+}
+.infa input{
+    border-radius: 5px;
+    width: 220px;
+    height: 50px;
+    display: block;
+    border: 2px solid #63b5ae;
+    background-color: #63b5ae;
+    font-size: 25px;
+    color: white;
+    margin-top: 15px;
+}
+
+
+.opisanie h3{
+    text-align: left;
+    font-size: 20px;
+    
+}
+.opisanie p{
+    padding-top: 5px;
+    
+}
+.price h3{
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.criterion h3{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 200px;
+   
+}
+.criterion hr{
+    height: 2px;
+    margin-left: 200px;
+}
+
+
+.statisica {
+    background: url(../img/bg3.jpg) no-repeat center;
+}
+.criterion h4{
+    padding:50px 0px 10px 500px;
+}
+
+.criterion select{
+    background-color: #eeeeee;
+    text-align: left;
+    margin-left:200px;
+    height: 60px;
+    width: 600px;
+  
+}
+.criterion hr{
+    width: 590px;
+    background:#eeeeee;
+    margin:40px 0px 0px 205px ;}
+
+.criterion h3 {
+    padding-top: 30px;  
+}
+
+.knopka{
+margin: 20px 0px 20px 200px;    
+}
+.knopka input{
+    width: 550px;
+    text-align: right;
+    line-height: 20px;
+
+}
+.knopka_two input{
+     width: 515px;
+    text-align: right;
+    line-height: 20px;
+    margin-top: 30px;
+
+}
+
+
+.statisica { 
+    background: url(../img/bg3.jpg) no-repeat center;
+ height: 500px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.statisica h3{
+    text-align: center;
+    margin: 40px auto;
+    font-size: 25px;
+}
+
+.statisica hr{
+    width: 85px;/*ширина*/     
+    height: 5px;/*высота*/
+    background:#d17700;
+    margin:20px auto;
+}
+.icons{
+    float: left;
+    padding-left: 150px;
+    margin: 180px auto;
+    line-height: 35px;
+    
+}
+.icons h5{
+    
+}
+.reviews{
+    text-align: center;
+}
+.reviews input{
+    background:#d17700; 
+}
+.reviews hr{
+     width: 70px;
+    height: 5px;
+    background:#d17700; 
+    margin:20px auto;
+    line-height: 10px;
+}
+.contacs{
+    color: white;
+    background: url(../img/bg4.jpg) no-repeat;
+     height: 600px;
+    width: 100%;
+    text-align: center;
+}
+.contacs h3{
+    padding-top: 20px;
+}
+.contacs p{
+    margin: 20px auto;
+    
+}
+
+.address{
+   float: left;
+   width: 270px;
+    height: 50px;
+ text-align: center;
+    margin: 20px 0px 50px 90px;
+    
+}
+.feedback h5{
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 50px;
+}
+.sms input{
+       background-color: #eeeeee;
+    width: 250px;
+    margin:20px auto;
+}
+.sms textarea{
+background-color: #eeeeee;
+    width: 505px;
+}
+.send input{
+    margin: 40px auto;
+    height: 25px;
+    width: 100px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 2px;
+    border: 2px solid #eeeeee;
+    
+}
+.massanger{
+    display: inline-block;
+    padding: 10px;
+  
+}
+.maps{
+background: url(../img/map.png) no-repeat left;
+    width: 100%;
+    height: 345px;
+}
+
+
+.close {
+    background-color: #354051;
+    width: 100%;
+      height: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    
+}
