@@ -1,0 +1,318 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.menu{
+    float: left;
+    max-width: 100%;
+    height: 70px;
+    background-color: #2a3e51;
+    color: white;
+    
+}
+.menu h3{
+    font-size: 24px;
+    margin-left: 50px;
+}
+h3:hover{
+      animation: shake 0.5s;
+      animation-iteration-count: infinite;
+    
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.menu li a{
+    float: left;
+    text-decoration: none;
+    padding-right: 25px;
+    color: black;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    transform: scale(1);
+}
+.menu li a:active{
+    color:#dc7306;
+    transition-duration: 0,5s;
+    transition-delay: 0,1;
+    
+}
+.menu li a:hover{
+        color:#dc7306;
+     transform: scale(1,1);
+}
+.aboutme_container{
+    max-width: 100%;
+    height: 100vh;
+background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+@media (max-width:1000px){
+    .aboutme_container{
+	position: relative;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #000;
+	opacity: 0.6;
+}
+    }
+}
+.aboutme_container h3{
+    font-size: 60px;
+    margin-top: 100px;
+    
+}
+.aboutme_container p{
+    font-size: 15px;
+}
+.aboutme_contaier_input  button{
+    margin-right: 20px;
+    background-color: #ecebf2;
+    border-color: #697784;
+    color:#697784;
+}
+
+.summary h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    
+}
+.summary hr{
+     height: 4px;
+    border:none;
+    margin: 0 auto 100px;
+    width:70px;
+    background:#dc7306;
+    opacity: 1;
+}
+.summary img{
+    display: block;
+    margin:58px auto;
+}
+.summary button{
+    margin-bottom: 20px;
+}
+
+.skills{
+    background: url(../img/bg2.jpg) no-repeat center/cover;
+}
+.skills h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 100px 0px 20px 0px ;
+}
+.skills_i h4{
+    color: #dc7306;
+    font-size: 20px;
+}
+.skills hr{
+    height: 4px;
+    border:none;
+    margin: 0 auto 100px;
+    width:70px;
+    background:#dc7306;
+    opacity: 1;
+
+}
+.skills_i img{
+    height: 40px;
+    margin-bottom: 20px;
+}
+.skills_i p{
+    font-size: 15px;
+    margin-bottom: 80px;
+}
+.case h3 {
+    margin: 100px auto 20px;
+     text-transform: uppercase;
+    font-size: 25px;
+}
+.case hr{
+    height: 4px;
+    border:none;
+    margin: 0 auto 40px;
+    width:70px;
+    background:#dc7306;
+    opacity: 1;
+}
+.case_h4 {
+    font-size: 12,5px;
+    margin: 30px auto 45px;
+}
+.case img{
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.infa a{
+    text-decoration: none;
+}
+.infa h5{
+    margin: 10px auto 0px;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.infa p{
+    margin: 0px auto 10px; 
+}
+.transition{
+    margin-top: 20px;
+}
+.name_proect {
+    margin: 20px auto;
+}
+.name_proect h4{
+    font-weight: 700;
+}
+.case_information{
+    margin:10px auto;
+    border-top: 4px solid #fcfcfc;
+}
+.calculation{
+    
+    border: 2px solid #f1f1f1;
+    border-radius: 20px;
+    box-shadow: 1px -2px 22px 40px rgba(241,241,241,0.75);
+-webkit-box-shadow: 1px -2px 22px 40px rgba(241,241,241,0.75);
+-moz-box-shadow: 1px -2px 22px 40px rgba(241,241,241,0.75);
+    margin: 150px auto 30px;
+}
+.calculation select{
+    background-color: #efefef;
+    width: 100%;
+    height: 60px;
+    
+}
+.day_calc p{
+    float: left;
+}
+.price p{
+    float: left;
+}
+.day_calc .digit {
+    float: right;
+}
+.price .digit {
+    float: right;
+}
+.calculation button{
+background-color: #00b6af;
+    color:white;
+}
+.statistics{
+    max-width: 100%;
+    background: url(../img/bg3.jpg) no-repeat center;
+}
+.statistics h3{
+    margin: 20px auto 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.statistics hr{
+ height: 4px;
+    border:none;
+    margin: 0 auto 100px;
+    width:70px;
+    background:#dc7306;
+    opacity: 1;
+}
+.statistics img{
+    height: 40px;
+}
+.statistics h5{
+    font-weight: 800;
+}
+.statistics p{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 30px auto 100px;
+}
+
+.review hr{
+      height: 4px;
+    border:none;
+    margin: 0 auto 100px;
+    width:70px;
+    background:#dc7306;
+    opacity: 1;
+}
+.review img{
+    margin: auto;
+}
+
+    .form-check {
+        max-width: 100%;
+
+        float: none;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    }   
+
+.swith id{
+    background-color: brown;
+}
+
+.contact{
+    max-width: 100%;
+    background: url(../img/bg4.jpg) no-repeat center;
+    color:white;
+}
+.contact h3{
+    margin: 70px auto 30px;
+}
+.contact hr{
+      height: 4px;
+    border:none;
+    margin: 0 auto 30px;
+    width:70px;
+    background:#dc7306;
+    opacity: 1;
+}
+.contact h4{
+    text-transform: uppercase;
+}
+.name input{
+   width: 100%;
+       background-color: #d0d6dd;
+}
+.ema input{
+    width: 100%;
+       background-color: #d0d6dd;
+}
+}
+.nam inout{
+    width: 100%;
+}
+.contact textarea{
+    width: 100%;
+    background-color: #d0d6dd;
+}
+.social_netwrok{
+    margin:70px 0px;
+}
+
+    
+.maps{
+    max-width: 100%;
+ height:350px;
+    background: url(../img/map.png) no-repeat center;
+}
+footer{
+    background-color: #2b3d50;
+    color:white;
+    font-size: 25px;
+}

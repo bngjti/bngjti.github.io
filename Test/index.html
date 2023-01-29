@@ -1,0 +1,45 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Калькулятор на JavaScript</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    
+ 
+
+    </head>
+    <body>
+   
+
+           <select onchange="calc()" name="Тип сайта " id="siteType">
+           	<option  onchange="calc()"value="0" days="0" selected disabled>Выберите пункт</option>
+		   	<option id="test1" value="2000" data-days="2">Сайт-визитка</option>
+          </select>
+          
+      
+         <h3>Дизайн</h3>
+          <select onchange="calc()" name="Дизайн " id="Disign">
+            <option value="0" data-days="0" selected disabled>Выберите пункт</option>
+            <option  id="test2" value="2000" data-days="2">Шаблонный</option>
+          </select>
+        
+        
+     
+        
+          <select onchange="calc()"   name="адаптивность" id="adaptive">
+              <option  value="0" days="0" selected disabled>Выберите пункт</option>
+              <option id="test3" value="2000" data-days="2">Только ПК</option>
+          </select>
+    
+       
+         <div><b>Стоимость: <span id="price">0</span></b> руб</div>
+         <div><b>Сроки: <span id="sroki">0</span></b> руб</div>>
+        
+      
+     
+          
+      
+                       
+                       
+				<script  defer src="src/js/myScript.js"></script>
+    </body>
+</html>
